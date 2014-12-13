@@ -103,6 +103,7 @@ class logstashforwarder::params {
            for \"${::kernel}\"")
     }
   }
+  $configname = 'logstashforwarder.json'
 
   # packages
   case $::operatingsystem {

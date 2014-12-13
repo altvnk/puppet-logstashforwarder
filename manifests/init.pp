@@ -125,6 +125,7 @@ class logstashforwarder(
   $logstashforwarder_user  = $logstashforwarder::params::logstashforwarder_user,
   $logstashforwarder_group = $logstashforwarder::params::logstashforwarder_group,
   $configdir               = $logstashforwarder::params::configdir,
+  $configfile              = $logstashforwarder::params::configname,
   $purge_configdir         = $logstashforwarder::params::purge_configdir,
   $service_provider        = 'init',
   $init_defaults           = $logstashforwarder::params::init_defaults,
